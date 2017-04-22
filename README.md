@@ -14,6 +14,18 @@ This project is a guide for how I configured a linux server to deploy my [Outdoo
 * [Python 2.7](https://www.python.org/)
 * [SQLAlchemy](https://www.sqlalchemy.org/)
 
+## Software Used
+
+* [Postgresql](https://www.postgresql.org/)
+* [Apache 2](https://httpd.apache.org/)
+* [Virtualenv](https://virtualenv.pypa.io/en/stable/)
+
+## Resources Used
+
+* [Digital Ocean](https://www.digitalocean.com)
+* [Digital Ocean Deploy Flask](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
+
+
 ## Summary of Configurations
 
 ### Set up firewall
@@ -129,11 +141,6 @@ The JSON API allows retrieving data from the Outdoor Catalog database_setup
 (returns a list of all items in the provided category id)
 * `http://ec2-34-205-141-166.compute-1.amazonaws.com/category/<category_id>/list/<item_id>/JSON`
 (returns a item for the provided item id and category id)
-
-## Resources
-[Digital Ocean](https://www.digitalocean.com)
-
-[Digital Ocean Deploy Flask](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
 
 ## License
 
