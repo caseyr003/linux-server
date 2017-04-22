@@ -131,7 +131,8 @@ The JSON API allows retrieving data from the Outdoor Catalog database_setup
 (returns a item for the provided item id and category id)
 
 ## Resources
-A big thanks to [Digital Ocean](https://www.digitalocean.com)
+[Digital Ocean](https://www.digitalocean.com)
+
 [Digital Ocean Deploy Flask](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
 
 ## License
